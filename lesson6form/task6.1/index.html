@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6.1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="#">
+        <div>
+            <input type="text" placeholder="Искать здесь...">
+            <button></button>
+        </div>
+    </form>
+    <div class="task">
+        <form action="#">
+            <label>Ваше имя</label>
+            <input type="text">
+            <label>Пароль</label>
+            <input type="text">
+            <label>Дата</label>
+            <input type="date">
+            <label>Любимый цвет</label>
+            <input type="color" required>
+            <label>Рейтинг</label>
+            <input type="range" min="0" max="5">
+            <label>Количество комнат</label>
+            <input type="number">
+            <label>E-mail</label>
+            <input type="email">
+            <div>
+                <label for="same">Я согласен с условиями</label>
+                <input id="same" type="checkbox">
+            </div>
+            <div class="radio">
+                <p>Согласны ли вы с этим высказыванием?</p>
+                <label>Да
+                    <input type="radio" name="opinion">
+                </label>
+                <label>Нет
+                    <input type="radio" name="opinion">
+                </label>
+                <label>Не знаю
+                    <input type="radio" name="opinion">
+                </label>
+            </div>
+            <p>Выберите город для проживания</p>
+            <select name="city">
+                <option value="" hidden>Город</option>
+                <option value="Минск">Минск</option>
+                <option value="Варшава">Варшава</option>
+                <option value="Ливерпуль">Ливерпуль</option>
+                <option value="Амстердам">Амстердам</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>

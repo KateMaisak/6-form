@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+div{
+    display: inline-block;
+    border: #66b49a solid;
+    border-radius: 3px;
+    background-color: #f4fcc6;
+}
+
+input{
+    
+    padding: 10px;
+    vertical-align: middle;
+    border: none;
+    background-color: #f4fcc6;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+button{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background-color: #66b49a;
+    background-image: url(/images/search-interface-symbol\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: lightgray;
+}
+
+input:focus::placeholder{
+    opacity: 0;
+}
+
+
+.task{
+    margin-top: 1000px;
+}

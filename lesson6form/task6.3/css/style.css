@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0fcfc;
+}
+
+.title{
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3d3d3d;
+}
+.text{
+    width: 450px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+}
+.container{
+    margin: auto;
+    width: 270px;
+    text-align: center;
+}
+
+input{
+    display: inline-block;
+    width: 270px;
+    padding: 7px;
+    outline: none;
+    border: #b1b1b1 solid 1px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+input::placeholder{
+    color: #585858;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+input:focus::placeholder{
+    color: #b1b1b1;
+}
+
+.date{
+    color:#585858;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.number, .month, .year{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.number, .month{
+    margin-right: 7px;
+}
+select{
+    padding: 6px 10px;
+    outline: none;
+    border: #b1b1b1 solid 1px;
+    border-radius: 3px;
+    color: #585858;
+}
+
+.submit{
+    background-color: #5fc75f;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+span{
+    color: #585858;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 11px;
+}
+
+span::before{
+    display: inline-block;
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: #b1b1b1;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+span::after{
+    display: inline-block;
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: #b1b1b1;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+button{
+    display: block;
+    width: 270px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 15px; 
+    cursor: pointer;
+    background-color: #5353fd;
+}
+button a{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
